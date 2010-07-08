@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Styleable attributes for the NumberPicker widget/custom view -->
+    <declare-styleable name="NumberPicker">
+        <!-- Max value -->
+        <attr name="max_value" format="integer"/>
+        <!-- Min value -->
+        <attr name="min_value" format="integer"/>
+        <!-- Default value (default selected value) -->        
+        <attr name="default_value" format="integer"/>
+        <!-- Background color of view -->
+        <attr name="background_color" format="color"/>
+        <!-- Text color of custom view -->
+        <attr name="text_color" format="color"/>
+        <!-- Background dim when dialog is selected? -->
+        <attr name="background_dim" format="boolean"/>        
+    </declare-styleable>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Relative layout to populate the entire screen -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:finurligt="http://schemas.android.com/apk/res/com.finurligt.demo"
+                android:background="#aaaaaa"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    <!-- Put a NumberPicker in the middle of the parent -->
+    <com.finurligt.widget.NumberPicker android:id="@+id/my_picker"
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"                                       
+                                       android:layout_centerInParent="true"
+                                       finurligt:min_value="0"
+                                       finurligt:max_value="50"
+                                       finurligt:default_value="0"
+                                       finurligt:background_color="#3333ff"
+                                       finurligt:text_color="#ffffff"
+                                       finurligt:background_dim="true"/>  
+</RelativeLayout>
